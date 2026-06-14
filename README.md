@@ -1,4 +1,4 @@
-# ClimateGuard — AI Agent for Climate Risk Monitoring in Kazakhstan
+# ClimateGuard-AI Agent for Climate Risk Monitoring in Kazakhstan
 
 A multi-agent AI system that autonomously analyzes satellite imagery and hydrological data to predict flood and drought risks for agricultural regions in Kazakhstan.
 
@@ -14,7 +14,7 @@ ChatGPT and similar tools cannot solve this: they have no access to real-time sa
 
 ## What It Does
 
-ClimateGuard is an autonomous AI agent. A farmer or agronomist types a natural language query — "assess flood risk for my district in North Kazakhstan over the next two weeks" — and the agent handles everything else:
+ClimateGuard is an autonomous AI agent. A farmer or agronomist types a natural language query-"assess flood risk for my district in North Kazakhstan over the next two weeks"-and the agent handles everything else:
 
 1. Connects to NASA Landsat and ESA Sentinel satellite APIs and downloads relevant imagery
 2. Writes and executes Python scripts to process raw geospatial data (GeoTIFF, NetCDF)
@@ -72,7 +72,7 @@ Risk Map Output + Recommendations
 ## Tech Stack
 
 - **Backend:** Python / FastAPI / Uvicorn
-- **Agent AI:** Oylan API — reasoning, code generation, self-correction loop
+- **Agent AI:** Oylan API-reasoning, code generation, self-correction loop
 - **Satellite Data:** NASA Earthdata API (Landsat), ESA Copernicus API (Sentinel-2)
 - **Geospatial Processing:** rasterio, xarray, numpy, geopandas
 - **Local Data:** Kazhydromet API, ISSAI internal datasets
@@ -85,7 +85,7 @@ Risk Map Output + Recommendations
 
 ## Research Potential
 
-This project is designed as a scalable architecture. The geospatial pipeline and agent design can be transferred to any agricultural region by changing satellite coordinates — Great Plains (USA), sub-Saharan Africa, Scandinavia. Kazakhstan serves as the primary testbed due to its extreme continental climate and high vulnerability to both flood and drought events.
+This project is designed as a scalable architecture. The geospatial pipeline and agent design can be transferred to any agricultural region by changing satellite coordinates-Great Plains (USA), sub-Saharan Africa, Scandinavia. Kazakhstan serves as the primary testbed due to its extreme continental climate and high vulnerability to both flood and drought events.
 
 ---
 
@@ -139,7 +139,7 @@ Content-Type: application/json
 }
 ```
 
-Response (current placeholder — real Oylan integration comes next):
+Response (current placeholder-real Oylan integration comes next):
 
 ```json
 {
@@ -151,10 +151,10 @@ Response (current placeholder — real Oylan integration comes next):
 
 ## Project Status
 
-In development — Lesson 2: FastAPI backend skeleton with `/`, `/health`, and `/chat` (echo placeholder). Real Oylan API integration and satellite data pipelines are planned for upcoming lessons.
+In development-Lesson 2: FastAPI backend skeleton with `/`, `/health`, and `/chat` (echo placeholder). Real Oylan API integration and satellite data pipelines are planned for upcoming lessons.
 
 ---
 
 ## Author
 
-[Your Name] — ISSAI, Nazarbayev University
+Aibike Nurakhan
